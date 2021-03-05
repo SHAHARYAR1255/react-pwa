@@ -4,7 +4,7 @@ import { Navbar, Nav } from 'react-bootstrap'
 import Home from './Home'
 import About from './About'
 import Users from './Users'
- import firebase from './firebase'
+//  import firebase from './firebase'
 import { Link, Route, BrowserRouter as Router, Switch } from 'react-router-dom'
 function App() {
   // React.useEffect(()=>{
