@@ -1,21 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { Navbar, Nav } from 'react-bootstrap'
 import Home from './Home'
 import About from './About'
 import Users from './Users'
-// import firebase from './firebase'
+ import firebase from './firebase'
 import { Link, Route, BrowserRouter as Router, Switch } from 'react-router-dom'
 function App() {
-  React.useEffect(()=>{
-    // const msg=firebase.messaging();
-    // msg.requestPermission().then(()=>{
-    //   return msg.getToken();
-    // }).then((data)=>{
-    //   console.warn("token",data)
-    // })
-  })
+  // React.useEffect(()=>{
+  //   const msg=firebase.messaging();
+  //    msg.requestPermission().then(()=>{
+  //      return msg.getToken();
+  //    }).then((data)=>{
+  //      console.warn("token",data)
+  //    })
+  // })
 
   return (
     <div className="App">
